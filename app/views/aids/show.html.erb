@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @aid.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @aid.longitude %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @aid.title %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @aid.category %>
+</p>
+
+<p>
+  <strong>Aid type:</strong>
+  <%= @aid.aid_type %>
+</p>
+
+<p>
+  <strong>Explanation:</strong>
+  <%= @aid.explanation %>
+</p>
+
+<p>
+  <strong>Needy name:</strong>
+  <%= @aid.needy_name %>
+</p>
+
+<%= link_to 'Edit', edit_aid_path(@aid) %> |
+<%= link_to 'Back', aids_path %>
